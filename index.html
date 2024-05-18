@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
     <!-- Navbar starts here -->
-    <nav class="flex justify-between border-y border-black items-center md:px-4 px-2 w-full h-16 bg-sky-100 fixed top-0 left-0">
+    <nav
+        class="flex justify-between border-y border-black items-center md:px-4 px-2 w-full h-16 bg-sky-100 fixed top-0 left-0">
         <div class="text-2xl text-bold">
             <!-- Xeleratecareer -->
-            <a href="/">
-                <img src="./images/navimg.png" alt="" class="h-14">
+            <a href="./index.html">
+                <img src="./images/logo.png" alt="" class="h-14">
             </a>
         </div>
         <ul class="md:flex hidden text-lg font-semibold">
-            <li class="mx-4 cursor-pointer hover:text-blue-700" ><a href="./index.html">Home</a></li>
+            <li class="mx-4 cursor-pointer hover:text-blue-700"><a href="./index.html">Home</a></li>
             <li class="mx-4 cursor-pointer hover:text-blue-700"> <a href="./about.html">About us</a></li>
             <li class="mx-4 cursor-pointer hover:text-blue-700"><a href="./contact.html">Contact us</a></li>
             <li class="mx-4 cursor-pointer hover:text-blue-700"><a href="./error.html">Career</a></li>
@@ -30,19 +34,19 @@
         <div class="md:hidden text-6xl cursor-pointer" onclick="handleMenu()">
             &#8801;
         </div>
-        <div id="nav-dialog"  class="fixed md:hidden hidden  bg-white inset-0   px-2 pt-1  ">
+        <div id="nav-dialog" class="fixed md:hidden hidden  bg-white inset-0   px-2 pt-1  ">
             <div class="flex justify-between ">
-            <div class="text-2xl text-bold">
-                <!-- Xeleratecareer -->
-                <a href="./index.html">
-                    <img src="./images/navimg.png" alt="" class="h-14">
-                </a>
+                <div class="text-2xl text-bold">
+                    <!-- Xeleratecareer -->
+                    <a href="./index.html">
+                        <img src="./images/logo.png" alt="" class="h-14">
+                    </a>
+                </div>
+                <div class="md:hidden text-3xl cursor-pointer mt-2 " onclick="handleMenu()">
+                    <!-- &#8801; -->
+                    <i class="fa-solid fa-xmark hover:bg-gray-400 hover:text-white px-2 py-1 rounded-3xl"></i>
+                </div>
             </div>
-            <div class="md:hidden text-3xl cursor-pointer mt-2 " onclick="handleMenu()">
-                <!-- &#8801; -->
-                <i class="fa-solid fa-xmark hover:bg-gray-400 hover:text-white px-2 py-1 rounded-3xl"></i>
-            </div>
-        </div>
             <div class="mt-6 text-lg font-semibold">
                 <a href="./index.html" class="font-medium m-3 p-3 hover:bg-gray-100 block">Home</a>
                 <a href="./about.html" class="font-medium m-3 p-3 hover:bg-gray-100 block">About us</a>
@@ -58,9 +62,11 @@
 
     <!-- hero section -->
     <div class="mt-16  w-full hidden md:flex bg-[#12445D]">
-        <div class="w-1/2 text-white  md:px-5 text-[39px] lg:text-[48px] px-3 flex justify-center flex-col items-center ">
+        <div
+            class="w-1/2 text-white  md:px-5 text-[39px] lg:text-[48px] px-3 flex justify-center flex-col items-center ">
             <p>Lets's find your</p>
-            <p>dream&nbsp;<span class="text-yellow-400 font-bold">job</span>&nbsp;with&nbsp;<span class="text-yellow-400 font-bold ">us</span></p>
+            <p>dream&nbsp;<span class="text-yellow-400 font-bold">job</span>&nbsp;with&nbsp;<span
+                    class="text-yellow-400 font-bold ">us</span></p>
         </div>
         <!-- <p class="w-1/2 text-white  md:px-5 text-[48px] px-3 flex justify-center items-center" style="background-color: #12445D;"> Lets's find your dream &nbsp;<span class="text-yellow-400 font-bold">job</span> &nbsp; with &nbsp;<span class="text-yellow-400 font-bold ">us</span> </p> -->
         <img class="w-1/2" src="./images/herosectionImg.png" alt="">
@@ -68,20 +74,23 @@
 
     <div class="mt-16  w-full md:hidden bg-[#12445D]">
         <img class="" src="./images/herosectionImg2.png" alt="">
-        <div class="h-auto flex flex-col items-center justify-center text-white text-[36px] sm:text-[48px] px-5 py-10 font-sans bg-[#12445D]">
+        <div
+            class="h-auto flex flex-col items-center justify-center text-white text-[36px] sm:text-[48px] px-5 py-10 font-sans bg-[#12445D]">
             <p>Lets's find your</p>
-            <p>dream&nbsp;<span class="text-yellow-400 font-bold">job</span>&nbsp;with&nbsp;<span class="text-yellow-400 font-bold ">us</span></p>
+            <p>dream&nbsp;<span class="text-yellow-400 font-bold">job</span>&nbsp;with&nbsp;<span
+                    class="text-yellow-400 font-bold ">us</span></p>
         </div>
         <!-- <p class="h-auto flex items-center justify-center text-white text-[28px] sm:text-[36px] px-5 py-10 font-sans" style="background-color: #12445D;"> Lets's find your dream&nbsp;<span class="text-yellow-400 font-bold">job</span>&nbsp;with&nbsp;<span class="text-yellow-400 font-bold ">us</span> </p> -->
     </div>
-     
+
     <!-- main content -->
     <!-- career transition -->
     <div class="bg-[#F2F0FF]  grid sm:grid-cols-2 gap-4 mt-6 pb-8">
         <img src="./images/transition.png" alt="">
         <div class="border  p-5 flex flex-col gap-4 justify-end items-center">
             <div class="text-5xl font-bold text-[#12445D] max-w-[25rem]">Successful Career Transitions</div>
-            <p class="text-[18px] text-[#757575] max-w-96 ">Xeleratecareer has empowered countless candidates to transition smoothly into various professional domains, fostering growth and opportunity</p>
+            <p class="text-[18px] text-[#757575] max-w-96 ">Xeleratecareer has empowered countless candidates to
+                transition smoothly into various professional domains, fostering growth and opportunity</p>
         </div>
 
     </div>
@@ -131,15 +140,15 @@
             <img src="./images/recruiter.jpg" alt="" class=" rounded">
         </div>
     </div>
-    <div class= "bg-[#e0e2e6] ">
+    <div class="bg-[#e0e2e6] ">
         <div class="flex justify-center items-center h-20 md:h-40 flex-col gap-2">
             <p class="text-3xl sm:text-4xl font-bold">Numerous job categories</p>
             <div class="w-36 sm:w-52 h1 border-yellow-500 border-2 rounded-md"></div>
         </div>
         <div class=" p-4 grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-xl">
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">MERN stack</div>
-            <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg" >MEAN stack</div>
-            <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg" >Data Engineer</div>
+            <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">MEAN stack</div>
+            <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">Data Engineer</div>
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">Frontend Engineer</div>
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">Backend Engineer</div>
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">DevOps Engineer</div>
@@ -152,7 +161,8 @@
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">System Engineer</div>
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">Cyber Security</div>
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">PHP Laravel Developer</div>
-            <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">Ruby on Rails Developer</div>
+            <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">Ruby on Rails Developer
+            </div>
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">UI/UX Designer</div>
             <div class="bg-white p-2 flex justify-center items-center rounded-md shadow-lg">AI/ML Developer</div>
         </div>
@@ -161,64 +171,68 @@
     <!-- footer section -->
     <div class="flex justify-center m-auto w-full bg-[#12445d] ">
         <div class="w-full  grid md:grid-cols-3 bg-[#12445d] max-w-5xl px-12 py-6 justify-between flex-wrap gap-8 ">
-                <div class="flex flex-col gap-4 text-[#C1C6CE]">
-                    <a href="./index.html">
-                        <img src="./images/image.png" alt="" class="h-16 w-40">
-                    </a>
+            <div class="flex flex-col gap-4 text-[#C1C6CE]">
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="" class="h-16 w-40">
+                </a>
 
-                    <div class="hover:text-yellow-500 text-lg font-medium ml-3 flex justify-start items-center gap-x-1">
-                        <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:support@xcareer.com">support@xcareer.com</a>
-                    </div>
-
-                    <div class="hover:text-yellow-500 text-lg font-medium ml-3 flex justify-start items-center gap-x-1">
-                        <i class="fa-solid fa-phone"></i>
-                        <a href="tel:+91 9589859769">9589859769</a>
-                    </div>
-
-
-                    <div class="flex ml-3   justify-between w-24 text-2xl " style="">
-                        <a href="https://www.linkedin.com/" target="_blank" ><i class="fa-brands fa-linkedin hover:text-[#848588]"></i></a> 
-                        <a href="https://www.telegram.com/"target="_blank" ><i class="fa-brands fa-telegram hover:text-[#848588]"></i></a>
-                        <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram hover:text-[#848588]"></i></a> 
-                     </div>
+                <div class="hover:text-yellow-500 text-lg font-medium ml-3 flex justify-start items-center gap-x-1">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:support@xcareer.com">support@xcareer.com</a>
                 </div>
 
-                <div class=" flex flex-col gap-5 bg-[#12445d] text-white ml-3">
-                    <div>
-                        <p class="text-xl font-bold text-white ">Company</p>
-                        <div class="w-44 md:w-56  border-yellow-600 border-t-4 mt-2"></div>
-                    </div>
-                    <div class="flex gap-14">
-                        <div class="flex flex-col gap-2">
-                            <a href="./about.html" class=" hover:text-yellow-500">About us</a>
-                            <a href="./error.html" class=" hover:text-yellow-500">Privacy policy</a>
-                        </div>
-                        <div class="flex flex-col gap-2">
-                            <a href="./contact.html" class=" hover:text-yellow-500">Contact us</a>
-                            <a href="./error.html" class=" hover:text-yellow-500">Terms and conditions</a>
-                        </div>
-                    </div>
+                <div class="hover:text-yellow-500 text-lg font-medium ml-3 flex justify-start items-center gap-x-1">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+91 9589859769">9589859769</a>
                 </div>
-                
-                <div class=" flex flex-col gap-5 bg-[#12445d] text-white ml-3">
-                    <div>
-                        <p class="text-xl font-bold text-white ">Products</p>
-                        <div class="w-44 md:w-56  border-yellow-600 border-t-4 mt-2"></div>
+
+
+                <div class="flex ml-3   justify-between w-24 text-2xl " style="">
+                    <a href="https://www.linkedin.com/" target="_blank"><i
+                            class="fa-brands fa-linkedin hover:text-[#848588]"></i></a>
+                    <a href="https://www.telegram.com/" target="_blank"><i
+                            class="fa-brands fa-telegram hover:text-[#848588]"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-instagram hover:text-[#848588]"></i></a>
+                </div>
+            </div>
+
+            <div class=" flex flex-col gap-5 bg-[#12445d] text-white ml-3">
+                <div>
+                    <p class="text-xl font-bold text-white ">Company</p>
+                    <div class="w-44 md:w-56  border-yellow-600 border-t-4 mt-2"></div>
+                </div>
+                <div class="flex gap-14">
+                    <div class="flex flex-col gap-2">
+                        <a href="./about.html" class=" hover:text-yellow-500">About us</a>
+                        <a href="./error.html" class=" hover:text-yellow-500">Privacy policy</a>
                     </div>
-                    <div class="flex gap-14">
-                        <div class="flex flex-col gap-2">
-                            <a href="./error.html" class=" hover:text-yellow-500">Skill Lab</a>
-                            <a href="./error.html" class=" hover:text-yellow-500">FAQ</a>
-                        </div>
-                        <div class="flex flex-col gap-2">
-                            <a href="./error.html" class=" hover:text-yellow-500">job portal</a>
-                            <a href="./error.html" class=" hover:text-yellow-500">Blogs</a>
-                        </div>
+                    <div class="flex flex-col gap-2">
+                        <a href="./contact.html" class=" hover:text-yellow-500">Contact us</a>
+                        <a href="./error.html" class=" hover:text-yellow-500">Terms and conditions</a>
                     </div>
                 </div>
             </div>
+
+            <div class=" flex flex-col gap-5 bg-[#12445d] text-white ml-3">
+                <div>
+                    <p class="text-xl font-bold text-white ">Products</p>
+                    <div class="w-44 md:w-56  border-yellow-600 border-t-4 mt-2"></div>
+                </div>
+                <div class="flex gap-14">
+                    <div class="flex flex-col gap-2">
+                        <a href="./error.html" class=" hover:text-yellow-500">Skill Lab</a>
+                        <a href="./error.html" class=" hover:text-yellow-500">FAQ</a>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <a href="./error.html" class=" hover:text-yellow-500">job portal</a>
+                        <a href="./error.html" class=" hover:text-yellow-500">Blogs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="./script.js"></script>
+
 </html>
